@@ -1,0 +1,20 @@
+{
+  "name": "next-mysql",
+  "version": "1.0.0",
+  "description": "Simple next mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build"
+  },
+  "author": "Eka",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "serverless-mysql": "^1.5.4",
+    "sql-template-strings": "^2.2.2"
+  }
+}
