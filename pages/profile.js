@@ -18,7 +18,7 @@ function ProfilePage({ profile }) {
       <div>
         <img src={profile.avatar} />
         <h1>{profile.name}</h1>
-        <p>{profile.address}</p>
+
         <p>{profile.email}</p>
         <Link href="/">
           <a>← Back to profiles</a>
