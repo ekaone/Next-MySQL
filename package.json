@@ -4,8 +4,9 @@
   "description": "Simple next mysql",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "Eka",
   "license": "MIT",
@@ -16,5 +17,8 @@
     "react-dom": "^16.13.1",
     "serverless-mysql": "^1.5.4",
     "sql-template-strings": "^2.2.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
