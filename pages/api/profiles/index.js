@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
     `);
   const count = await db.query(escape`
       SELECT COUNT(*)
-      AS usersCount
+      AS profilesCount
       FROM users
     `);
   const { profilesCount } = count[0];
